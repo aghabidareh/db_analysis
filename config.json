@@ -1,0 +1,23 @@
+{
+  "database": {
+    "type": "postgresql",
+    "host": "localhost",
+    "port": 5434,
+    "database": "your_database",
+    "user": "your_user",
+    "password": "your_password",
+    "schema": "your_schema"
+  },
+  "output": {
+    "format": "json",
+    "structure_file": "db_structure",
+    "relationships_file": "db_relationships",
+    "stats_file": "db_stats"
+  },
+  "options": {
+    "ignored_tables": [
+    ],
+    "timeout_seconds": 60,
+    "max_retries": 3
+  }
+}
