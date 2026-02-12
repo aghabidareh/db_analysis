@@ -1,1 +1,1 @@
-from relationship_analyzer import RelationshipAnalyzer
+from .relationship_analyzer import RelationshipAnalyzer
