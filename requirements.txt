@@ -1,0 +1,5 @@
+psycopg2-binary>=2.9.0
+mysql-connector-python>=8.0.0
+pyodbc>=4.0.0
+pyyaml>=6.0
+dicttoxml>=1.7.0
